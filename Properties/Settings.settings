@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UploadToSFTP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="To_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/incoming/EzabiData/</Value>
+    </Setting>
+    <Setting Name="From_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\engy.hamdy\Desktop\a</Value>
+    </Setting>
+    <Setting Name="User" Type="System.String" Scope="User">
+      <Value Profile="(Default)">13624694_test</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KgF2Sg6QwG</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

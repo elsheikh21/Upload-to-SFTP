@@ -1,0 +1,16 @@
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\Contents\Paomedia-Small-N-Flat-File-exe.ico
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\app.config
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\UploadToSFTP.exe.config
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\UploadToSFTP.exe.manifest
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\UploadToSFTP.application
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\UploadToSFTP.XML
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\UploadToSFTP.exe
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\UploadToSFTP.pdb
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Release\WinSCPnet.dll
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.Properties.Resources.resources
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.csproj.GenerateResource.Cache
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.exe.manifest
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.application
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.exe
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.pdb
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Release\UploadToSFTP.csprojResolveAssemblyReference.cache

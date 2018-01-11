@@ -1,0 +1,1518 @@
+. 2015-06-29 15:57:17.251 --------------------------------------------------------------------------
+. 2015-06-29 15:57:17.251 WinSCP Version 5.7.4 (Build 5553) (OS 6.1.7600 - Windows 7 Ultimate)
+. 2015-06-29 15:57:17.251 Configuration: nul
+. 2015-06-29 15:57:17.251 Log level: Normal
+. 2015-06-29 15:57:17.251 Local account: ECS\Engy.Hamdy
+. 2015-06-29 15:57:17.251 Working directory: C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug
+. 2015-06-29 15:57:17.251 Process ID: 9484
+. 2015-06-29 15:57:17.251 Command-line: "C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\engy.hamdy\AppData\Local\Temp\wscp20E8.00AE0419.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_8424_64923656_840
+. 2015-06-29 15:57:17.251 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2015-06-29 15:57:17.252 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2015-06-29 15:57:17.252 Login time: Monday, June 29, 2015 3:57:17 PM
+. 2015-06-29 15:57:17.252 --------------------------------------------------------------------------
+. 2015-06-29 15:57:17.252 Script: Retrospectively logging previous script records:
+> 2015-06-29 15:57:17.252 Script: option batch on
+< 2015-06-29 15:57:17.252 Script: batch           on        
+< 2015-06-29 15:57:17.252 Script: reconnecttime   120       
+> 2015-06-29 15:57:17.252 Script: option confirm off
+< 2015-06-29 15:57:17.252 Script: confirm         off       
+> 2015-06-29 15:57:17.252 Script: option reconnecttime 120
+< 2015-06-29 15:57:17.252 Script: reconnecttime   120       
+> 2015-06-29 15:57:17.252 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2015-06-29 15:57:17.252 --------------------------------------------------------------------------
+. 2015-06-29 15:57:17.252 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2015-06-29 15:57:17.252 Host name: sftp012.successfactors.eu (Port: 22)
+. 2015-06-29 15:57:17.252 User name: 13624694_test (Password: Yes, Key file: No)
+. 2015-06-29 15:57:17.252 Tunnel: No
+. 2015-06-29 15:57:17.252 Transfer Protocol: SFTP
+. 2015-06-29 15:57:17.252 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-06-29 15:57:17.252 Disable Nagle: No
+. 2015-06-29 15:57:17.252 Proxy: none
+. 2015-06-29 15:57:17.252 Send buffer: 262144
+. 2015-06-29 15:57:17.252 SSH protocol version: 2; Compression: No
+. 2015-06-29 15:57:17.252 Bypass authentication: No
+. 2015-06-29 15:57:17.252 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-06-29 15:57:17.252 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-06-29 15:57:17.252 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2015-06-29 15:57:17.252 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2015-06-29 15:57:17.252 Simple channel: Yes
+. 2015-06-29 15:57:17.252 Return code variable: Autodetect; Lookup user groups: A
+. 2015-06-29 15:57:17.252 Shell: default
+. 2015-06-29 15:57:17.252 EOL: 0, UTF: 2
+. 2015-06-29 15:57:17.252 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-06-29 15:57:17.252 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-06-29 15:57:17.252 SFTP Bugs: A,A
+. 2015-06-29 15:57:17.252 SFTP Server: default
+. 2015-06-29 15:57:17.252 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2015-06-29 15:57:17.252 Cache directory changes: Yes, Permanent: Yes
+. 2015-06-29 15:57:17.252 DST mode: 1
+. 2015-06-29 15:57:17.252 --------------------------------------------------------------------------
+. 2015-06-29 15:57:17.253 Looking up host "sftp012.successfactors.eu"
+. 2015-06-29 15:57:17.287 Connecting to 155.56.220.163 port 22
+. 2015-06-29 15:57:17.552 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2015-06-29 15:57:17.553 Using SSH protocol version 2
+. 2015-06-29 15:57:17.553 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2015-06-29 15:57:17.643 Doing Diffie-Hellman group exchange
+. 2015-06-29 15:57:17.793 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2015-06-29 15:57:18.243 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2015-06-29 15:57:18.243 Host key matches configured key
+. 2015-06-29 15:57:18.243 Host key fingerprint is:
+. 2015-06-29 15:57:18.243 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2015-06-29 15:57:18.244 Initialised AES-256 CBC client->server encryption
+. 2015-06-29 15:57:18.244 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2015-06-29 15:57:18.244 Initialised AES-256 CBC server->client encryption
+. 2015-06-29 15:57:18.244 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2015-06-29 15:57:18.504 Using username "13624694_test".
+. 2015-06-29 15:57:18.584 Attempting keyboard-interactive authentication
+. 2015-06-29 15:57:18.662 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2015-06-29 15:57:18.662 Using stored password.
+. 2015-06-29 15:57:18.824 Access granted
+. 2015-06-29 15:57:18.824 Opening session as main channel
+. 2015-06-29 15:57:18.904 Opened main channel
+. 2015-06-29 15:57:19.060 Started a shell/command
+. 2015-06-29 15:57:19.061 --------------------------------------------------------------------------
+. 2015-06-29 15:57:19.082 Using SFTP protocol.
+. 2015-06-29 15:57:19.083 Doing startup conversation with host.
+> 2015-06-29 15:57:19.084 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-06-29 15:57:19.162 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2015-06-29 15:57:19.163 SFTP version 3 negotiated.
+. 2015-06-29 15:57:19.165 We believe the server has signed timestamps bug
+. 2015-06-29 15:57:19.165 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2015-06-29 15:57:19.166 Getting current directory name.
+. 2015-06-29 15:57:19.167 Getting real path for '.'
+> 2015-06-29 15:57:19.167 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2015-06-29 15:57:19.252 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2015-06-29 15:57:19.253 Real path is '/'
+. 2015-06-29 15:57:19.253 Startup conversation with host finished.
+< 2015-06-29 15:57:19.254 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2015-06-29 15:57:19.370 Script: pwd
+< 2015-06-29 15:57:19.388 Script: /
+> 2015-06-29 15:57:25.365 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\engy.hamdy\Desktop\1.png" "/incoming/EzabiPhotos/"
+. 2015-06-29 15:57:25.366 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2015-06-29 15:57:25.366   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2015-06-29 15:57:25.366   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2015-06-29 15:57:25.366   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2015-06-29 15:57:25.443 File: 'C:\Users\engy.hamdy\Desktop\1.png' [2015-06-21T08:18:47.923Z] [86042]
+. 2015-06-29 15:57:25.444 Copying "C:\Users\engy.hamdy\Desktop\1.png" to remote directory started.
+. 2015-06-29 15:57:25.444 Binary transfer mode selected.
+. 2015-06-29 15:57:25.444 Opening remote file.
+> 2015-06-29 15:57:25.445 Type: SSH_FXP_OPEN, Size: 52, Number: 259
+< 2015-06-29 15:57:25.570 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2015-06-29 15:57:25.570 Type: SSH_FXP_WRITE, Size: 4118, Number: 774
+. 2015-06-29 15:57:25.586 17 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2015-06-29 15:57:25.587 Type: SSH_FXP_CLOSE, Size: 10, Number: 5380
+< 2015-06-29 15:57:25.664 Type: SSH_FXP_STATUS, Size: 21, Number: 774
+< 2015-06-29 15:57:25.745 Type: SSH_FXP_STATUS, Size: 21, Number: 1030
+< 2015-06-29 15:57:25.754 Type: SSH_FXP_STATUS, Size: 21, Number: 1286
+< 2015-06-29 15:57:25.826 Type: SSH_FXP_STATUS, Size: 21, Number: 1542
+< 2015-06-29 15:57:25.835 Type: SSH_FXP_STATUS, Size: 21, Number: 1798
+< 2015-06-29 15:57:25.845 Type: SSH_FXP_STATUS, Size: 21, Number: 2054
+< 2015-06-29 15:57:25.853 Type: SSH_FXP_STATUS, Size: 21, Number: 2310
+< 2015-06-29 15:57:25.905 Type: SSH_FXP_STATUS, Size: 21, Number: 2566
+< 2015-06-29 15:57:25.915 Type: SSH_FXP_STATUS, Size: 21, Number: 2822
+< 2015-06-29 15:57:25.924 Type: SSH_FXP_STATUS, Size: 21, Number: 3078
+< 2015-06-29 15:57:25.932 Type: SSH_FXP_STATUS, Size: 21, Number: 3334
+< 2015-06-29 15:57:25.940 Type: SSH_FXP_STATUS, Size: 21, Number: 3590
+< 2015-06-29 15:57:25.955 Type: SSH_FXP_STATUS, Size: 21, Number: 3846
+< 2015-06-29 15:57:25.959 Type: SSH_FXP_STATUS, Size: 21, Number: 4102
+< 2015-06-29 15:57:25.967 Type: SSH_FXP_STATUS, Size: 21, Number: 4358
+< 2015-06-29 15:57:25.976 Type: SSH_FXP_STATUS, Size: 21, Number: 4614
+< 2015-06-29 15:57:25.987 Type: SSH_FXP_STATUS, Size: 21, Number: 4870
+< 2015-06-29 15:57:26.039 Type: SSH_FXP_STATUS, Size: 21, Number: 5126
+< 2015-06-29 15:57:26.039 Type: SSH_FXP_STATUS, Size: 21, Number: 5380
+< 2015-06-29 15:57:26.039 Status code: 0
+. 2015-06-29 15:57:26.039 Transfer done: 'C:\Users\engy.hamdy\Desktop\1.png' [86042]
+> 2015-06-29 15:57:28.450 Script: exit
+. 2015-06-29 15:57:28.450 Script: Exit code: 0
+. 2015-06-29 15:57:28.451 Closing connection.
+. 2015-06-29 15:57:28.451 Sending special code: 12
+. 2015-06-29 15:57:28.451 Sent EOF message
+. 2015-06-29 15:59:25.963 --------------------------------------------------------------------------
+. 2015-06-29 15:59:25.963 WinSCP Version 5.7.4 (Build 5553) (OS 6.1.7600 - Windows 7 Ultimate)
+. 2015-06-29 15:59:25.963 Configuration: nul
+. 2015-06-29 15:59:25.963 Log level: Normal
+. 2015-06-29 15:59:25.963 Local account: ECS\Engy.Hamdy
+. 2015-06-29 15:59:25.963 Working directory: C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug
+. 2015-06-29 15:59:25.963 Process ID: 9424
+. 2015-06-29 15:59:25.964 Command-line: "C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\engy.hamdy\AppData\Local\Temp\wscp20E8.02A8E964.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_8424_17654054_633
+. 2015-06-29 15:59:25.964 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2015-06-29 15:59:25.964 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2015-06-29 15:59:25.964 Login time: Monday, June 29, 2015 3:59:25 PM
+. 2015-06-29 15:59:25.964 --------------------------------------------------------------------------
+. 2015-06-29 15:59:25.964 Script: Retrospectively logging previous script records:
+> 2015-06-29 15:59:25.964 Script: option batch on
+< 2015-06-29 15:59:25.964 Script: batch           on        
+< 2015-06-29 15:59:25.964 Script: reconnecttime   120       
+> 2015-06-29 15:59:25.964 Script: option confirm off
+< 2015-06-29 15:59:25.964 Script: confirm         off       
+> 2015-06-29 15:59:25.964 Script: option reconnecttime 120
+< 2015-06-29 15:59:25.964 Script: reconnecttime   120       
+> 2015-06-29 15:59:25.964 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2015-06-29 15:59:25.964 --------------------------------------------------------------------------
+. 2015-06-29 15:59:25.964 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2015-06-29 15:59:25.964 Host name: sftp012.successfactors.eu (Port: 22)
+. 2015-06-29 15:59:25.964 User name: 13624694_test (Password: Yes, Key file: No)
+. 2015-06-29 15:59:25.964 Tunnel: No
+. 2015-06-29 15:59:25.964 Transfer Protocol: SFTP
+. 2015-06-29 15:59:25.964 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-06-29 15:59:25.964 Disable Nagle: No
+. 2015-06-29 15:59:25.964 Proxy: none
+. 2015-06-29 15:59:25.964 Send buffer: 262144
+. 2015-06-29 15:59:25.964 SSH protocol version: 2; Compression: No
+. 2015-06-29 15:59:25.964 Bypass authentication: No
+. 2015-06-29 15:59:25.965 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-06-29 15:59:25.965 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-06-29 15:59:25.965 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2015-06-29 15:59:25.965 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2015-06-29 15:59:25.965 Simple channel: Yes
+. 2015-06-29 15:59:25.965 Return code variable: Autodetect; Lookup user groups: A
+. 2015-06-29 15:59:25.965 Shell: default
+. 2015-06-29 15:59:25.965 EOL: 0, UTF: 2
+. 2015-06-29 15:59:25.965 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-06-29 15:59:25.965 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-06-29 15:59:25.965 SFTP Bugs: A,A
+. 2015-06-29 15:59:25.965 SFTP Server: default
+. 2015-06-29 15:59:25.965 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2015-06-29 15:59:25.965 Cache directory changes: Yes, Permanent: Yes
+. 2015-06-29 15:59:25.965 DST mode: 1
+. 2015-06-29 15:59:25.965 --------------------------------------------------------------------------
+. 2015-06-29 15:59:25.966 Looking up host "sftp012.successfactors.eu"
+. 2015-06-29 15:59:25.974 Connecting to 155.56.220.163 port 22
+. 2015-06-29 15:59:26.146 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2015-06-29 15:59:26.146 Using SSH protocol version 2
+. 2015-06-29 15:59:26.146 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2015-06-29 15:59:26.246 Doing Diffie-Hellman group exchange
+. 2015-06-29 15:59:26.408 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2015-06-29 15:59:26.810 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2015-06-29 15:59:26.811 Host key matches configured key
+. 2015-06-29 15:59:26.811 Host key fingerprint is:
+. 2015-06-29 15:59:26.811 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2015-06-29 15:59:26.811 Initialised AES-256 CBC client->server encryption
+. 2015-06-29 15:59:26.811 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2015-06-29 15:59:26.811 Initialised AES-256 CBC server->client encryption
+. 2015-06-29 15:59:26.811 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2015-06-29 15:59:26.986 Using username "13624694_test".
+. 2015-06-29 15:59:27.075 Attempting keyboard-interactive authentication
+. 2015-06-29 15:59:27.160 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2015-06-29 15:59:27.160 Using stored password.
+. 2015-06-29 15:59:27.258 Access granted
+. 2015-06-29 15:59:27.258 Opening session as main channel
+. 2015-06-29 15:59:27.348 Opened main channel
+. 2015-06-29 15:59:27.514 Started a shell/command
+. 2015-06-29 15:59:27.515 --------------------------------------------------------------------------
+. 2015-06-29 15:59:27.515 Using SFTP protocol.
+. 2015-06-29 15:59:27.516 Doing startup conversation with host.
+> 2015-06-29 15:59:27.516 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-06-29 15:59:27.604 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2015-06-29 15:59:27.604 SFTP version 3 negotiated.
+. 2015-06-29 15:59:27.604 We believe the server has signed timestamps bug
+. 2015-06-29 15:59:27.605 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2015-06-29 15:59:27.605 Getting current directory name.
+. 2015-06-29 15:59:27.605 Getting real path for '.'
+> 2015-06-29 15:59:27.605 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2015-06-29 15:59:27.692 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2015-06-29 15:59:27.693 Real path is '/'
+. 2015-06-29 15:59:27.693 Startup conversation with host finished.
+< 2015-06-29 15:59:27.693 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2015-06-29 15:59:28.015 Script: pwd
+< 2015-06-29 15:59:28.016 Script: /
+> 2015-06-29 15:59:28.186 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\engy.hamdy\Desktop\1.png" "/incoming/EzabiPhotos/"
+. 2015-06-29 15:59:28.188 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2015-06-29 15:59:28.188   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2015-06-29 15:59:28.188   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2015-06-29 15:59:28.188   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2015-06-29 15:59:28.189 File: 'C:\Users\engy.hamdy\Desktop\1.png' [2015-06-21T08:18:47.923Z] [86042]
+. 2015-06-29 15:59:28.190 Copying "C:\Users\engy.hamdy\Desktop\1.png" to remote directory started.
+. 2015-06-29 15:59:28.190 Binary transfer mode selected.
+. 2015-06-29 15:59:28.190 Opening remote file.
+> 2015-06-29 15:59:28.190 Type: SSH_FXP_OPEN, Size: 52, Number: 259
+< 2015-06-29 15:59:28.329 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2015-06-29 15:59:28.330 Type: SSH_FXP_WRITE, Size: 4118, Number: 774
+. 2015-06-29 15:59:28.353 9 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2015-06-29 15:59:28.353 Type: SSH_FXP_CLOSE, Size: 10, Number: 3332
+< 2015-06-29 15:59:28.430 Type: SSH_FXP_STATUS, Size: 21, Number: 774
+< 2015-06-29 15:59:28.520 Type: SSH_FXP_STATUS, Size: 21, Number: 1030
+< 2015-06-29 15:59:28.529 Type: SSH_FXP_STATUS, Size: 21, Number: 1286
+< 2015-06-29 15:59:28.602 Type: SSH_FXP_STATUS, Size: 21, Number: 1542
+< 2015-06-29 15:59:28.609 Type: SSH_FXP_STATUS, Size: 21, Number: 1798
+< 2015-06-29 15:59:28.619 Type: SSH_FXP_STATUS, Size: 21, Number: 2054
+< 2015-06-29 15:59:28.628 Type: SSH_FXP_STATUS, Size: 21, Number: 2310
+< 2015-06-29 15:59:28.686 Type: SSH_FXP_STATUS, Size: 21, Number: 2566
+< 2015-06-29 15:59:28.773 Type: SSH_FXP_STATUS, Size: 21, Number: 2822
+< 2015-06-29 15:59:28.828 Type: SSH_FXP_STATUS, Size: 21, Number: 3078
+< 2015-06-29 15:59:28.829 Type: SSH_FXP_STATUS, Size: 21, Number: 3332
+< 2015-06-29 15:59:28.829 Status code: 0
+. 2015-06-29 15:59:28.829 Transfer done: 'C:\Users\engy.hamdy\Desktop\1.png' [86042]
+> 2015-06-29 15:59:29.139 Script: exit
+. 2015-06-29 15:59:29.140 Script: Exit code: 0
+. 2015-06-29 15:59:29.140 Closing connection.
+. 2015-06-29 15:59:29.140 Sending special code: 12
+. 2015-06-29 15:59:29.141 Sent EOF message
+. 2017-08-03 15:20:49.732 --------------------------------------------------------------------------
+. 2017-08-03 15:20:49.732 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2017-08-03 15:20:49.732 Configuration: nul
+. 2017-08-03 15:20:49.732 Log level: Normal
+. 2017-08-03 15:20:49.732 Local account: ECS\ahmede
+. 2017-08-03 15:20:49.732 Working directory: F:\sftp\UploadToSFTP\bin\Debug
+. 2017-08-03 15:20:49.732 Process ID: 11516
+. 2017-08-03 15:20:49.732 Command-line: "F:\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\ahmede\AppData\Local\Temp\wscp1BDC.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_7132_44624228_138
+. 2017-08-03 15:20:49.732 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-03 15:20:49.732 Login time: Thursday, August 3, 2017 3:20:49 PM
+. 2017-08-03 15:20:49.732 --------------------------------------------------------------------------
+. 2017-08-03 15:20:49.732 Script: Retrospectively logging previous script records:
+> 2017-08-03 15:20:49.732 Script: option batch on
+< 2017-08-03 15:20:49.732 Script: batch           on        
+< 2017-08-03 15:20:49.732 Script: reconnecttime   120       
+> 2017-08-03 15:20:49.732 Script: option confirm off
+< 2017-08-03 15:20:49.732 Script: confirm         off       
+> 2017-08-03 15:20:49.732 Script: option reconnecttime 120
+< 2017-08-03 15:20:49.732 Script: reconnecttime   120       
+> 2017-08-03 15:20:49.732 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-03 15:20:49.732 --------------------------------------------------------------------------
+. 2017-08-03 15:20:49.732 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-03 15:20:49.732 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-03 15:20:49.732 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-03 15:20:49.732 Tunnel: No
+. 2017-08-03 15:20:49.732 Transfer Protocol: SFTP
+. 2017-08-03 15:20:49.732 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-03 15:20:49.732 Disable Nagle: No
+. 2017-08-03 15:20:49.732 Proxy: none
+. 2017-08-03 15:20:49.732 Send buffer: 262144
+. 2017-08-03 15:20:49.732 SSH protocol version: 2; Compression: No
+. 2017-08-03 15:20:49.732 Bypass authentication: No
+. 2017-08-03 15:20:49.732 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-03 15:20:49.732 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-03 15:20:49.732 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-03 15:20:49.732 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-03 15:20:49.732 Simple channel: Yes
+. 2017-08-03 15:20:49.732 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-03 15:20:49.732 Shell: default
+. 2017-08-03 15:20:49.732 EOL: 0, UTF: 2
+. 2017-08-03 15:20:49.732 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-03 15:20:49.732 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-03 15:20:49.732 SFTP Bugs: A,A
+. 2017-08-03 15:20:49.732 SFTP Server: default
+. 2017-08-03 15:20:49.732 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-03 15:20:49.732 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-03 15:20:49.732 DST mode: 1
+. 2017-08-03 15:20:49.732 --------------------------------------------------------------------------
+. 2017-08-03 15:20:49.732 Looking up host "sftp012.successfactors.eu"
+. 2017-08-03 15:20:49.732 Connecting to 155.56.220.163 port 22
+. 2017-08-03 15:20:49.872 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-03 15:20:49.872 Using SSH protocol version 2
+. 2017-08-03 15:20:49.872 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-03 15:20:49.950 Doing Diffie-Hellman group exchange
+. 2017-08-03 15:20:50.075 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-03 15:20:50.357 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 15:20:50.357 Host key matches configured key
+. 2017-08-03 15:20:50.357 Host key fingerprint is:
+. 2017-08-03 15:20:50.357 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 15:20:50.357 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-03 15:20:50.357 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-03 15:20:50.357 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-03 15:20:50.357 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-03 15:20:50.497 Using username "13624694_test".
+. 2017-08-03 15:20:50.560 Attempting keyboard-interactive authentication
+. 2017-08-03 15:20:50.638 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-03 15:20:50.638 Using stored password.
+. 2017-08-03 15:20:50.716 Access granted
+. 2017-08-03 15:20:50.716 Opening session as main channel
+. 2017-08-03 15:20:50.779 Opened main channel
+. 2017-08-03 15:20:51.529 Started a shell/command
+. 2017-08-03 15:20:51.529 --------------------------------------------------------------------------
+. 2017-08-03 15:20:51.529 Using SFTP protocol.
+. 2017-08-03 15:20:51.529 Doing startup conversation with host.
+> 2017-08-03 15:20:51.529 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-03 15:20:51.591 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-03 15:20:51.591 SFTP version 3 negotiated.
+. 2017-08-03 15:20:51.591 We believe the server has signed timestamps bug
+. 2017-08-03 15:20:51.591 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-03 15:20:51.591 Getting current directory name.
+. 2017-08-03 15:20:51.591 Getting real path for '.'
+> 2017-08-03 15:20:51.591 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-03 15:20:51.669 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-03 15:20:51.669 Real path is '/'
+. 2017-08-03 15:20:51.669 Startup conversation with host finished.
+< 2017-08-03 15:20:51.669 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-03 15:20:51.857 Script: pwd
+< 2017-08-03 15:20:51.857 Script: /
+> 2017-08-03 15:20:52.044 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\ahmede\Desktop\testFile.txt" "/incoming/EzabiPhotos/"
+. 2017-08-03 15:20:52.044 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-03 15:20:52.044   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-03 15:20:52.044   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-03 15:20:52.044   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-03 15:20:52.044 File: 'C:\Users\ahmede\Desktop\testFile.txt' [2017-08-03T13:20:08.203Z] [0]
+. 2017-08-03 15:20:52.044 Copying "C:\Users\ahmede\Desktop\testFile.txt" to remote directory started.
+. 2017-08-03 15:20:52.044 Binary transfer mode selected.
+. 2017-08-03 15:20:52.044 Opening remote file.
+> 2017-08-03 15:20:52.044 Type: SSH_FXP_OPEN, Size: 59, Number: 259
+< 2017-08-03 15:20:52.138 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-03 15:20:52.138 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-03 15:20:52.216 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-03 15:20:52.216 Status code: 0
+. 2017-08-03 15:20:52.216 Transfer done: 'C:\Users\ahmede\Desktop\testFile.txt' [0]
+> 2017-08-03 15:20:52.513 Script: exit
+. 2017-08-03 15:20:52.513 Script: Exit code: 0
+. 2017-08-03 15:20:52.513 Closing connection.
+. 2017-08-03 15:20:52.513 Sending special code: 12
+. 2017-08-03 15:20:52.513 Sent EOF message
+. 2017-08-03 15:45:56.800 --------------------------------------------------------------------------
+. 2017-08-03 15:45:56.800 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2017-08-03 15:45:56.800 Configuration: nul
+. 2017-08-03 15:45:56.800 Log level: Normal
+. 2017-08-03 15:45:56.800 Local account: ECS\ahmede
+. 2017-08-03 15:45:56.800 Working directory: F:\sftp\UploadToSFTP\bin\Debug
+. 2017-08-03 15:45:56.800 Process ID: 9020
+. 2017-08-03 15:45:56.800 Command-line: "F:\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\ahmede\AppData\Local\Temp\wscp1640.036B20B7.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_5696_2637164_166
+. 2017-08-03 15:45:56.800 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-03 15:45:56.800 Login time: Thursday, August 3, 2017 3:45:56 PM
+. 2017-08-03 15:45:56.800 --------------------------------------------------------------------------
+. 2017-08-03 15:45:56.800 Script: Retrospectively logging previous script records:
+> 2017-08-03 15:45:56.800 Script: option batch on
+< 2017-08-03 15:45:56.800 Script: batch           on        
+< 2017-08-03 15:45:56.800 Script: reconnecttime   120       
+> 2017-08-03 15:45:56.800 Script: option confirm off
+< 2017-08-03 15:45:56.800 Script: confirm         off       
+> 2017-08-03 15:45:56.800 Script: option reconnecttime 120
+< 2017-08-03 15:45:56.800 Script: reconnecttime   120       
+> 2017-08-03 15:45:56.800 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-03 15:45:56.800 --------------------------------------------------------------------------
+. 2017-08-03 15:45:56.800 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-03 15:45:56.800 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-03 15:45:56.800 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-03 15:45:56.800 Tunnel: No
+. 2017-08-03 15:45:56.800 Transfer Protocol: SFTP
+. 2017-08-03 15:45:56.800 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-03 15:45:56.800 Disable Nagle: No
+. 2017-08-03 15:45:56.800 Proxy: none
+. 2017-08-03 15:45:56.800 Send buffer: 262144
+. 2017-08-03 15:45:56.800 SSH protocol version: 2; Compression: No
+. 2017-08-03 15:45:56.800 Bypass authentication: No
+. 2017-08-03 15:45:56.800 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-03 15:45:56.800 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-03 15:45:56.800 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-03 15:45:56.800 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-03 15:45:56.800 Simple channel: Yes
+. 2017-08-03 15:45:56.800 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-03 15:45:56.800 Shell: default
+. 2017-08-03 15:45:56.800 EOL: 0, UTF: 2
+. 2017-08-03 15:45:56.800 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-03 15:45:56.800 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-03 15:45:56.800 SFTP Bugs: A,A
+. 2017-08-03 15:45:56.800 SFTP Server: default
+. 2017-08-03 15:45:56.800 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-03 15:45:56.800 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-03 15:45:56.800 DST mode: 1
+. 2017-08-03 15:45:56.800 --------------------------------------------------------------------------
+. 2017-08-03 15:45:56.800 Looking up host "sftp012.successfactors.eu"
+. 2017-08-03 15:45:56.800 Connecting to 155.56.220.163 port 22
+. 2017-08-03 15:45:57.018 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-03 15:45:57.018 Using SSH protocol version 2
+. 2017-08-03 15:45:57.018 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-03 15:45:57.128 Doing Diffie-Hellman group exchange
+. 2017-08-03 15:45:57.315 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-03 15:45:57.643 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 15:45:57.643 Host key matches configured key
+. 2017-08-03 15:45:57.643 Host key fingerprint is:
+. 2017-08-03 15:45:57.643 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 15:45:57.643 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-03 15:45:57.643 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-03 15:45:57.643 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-03 15:45:57.643 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-03 15:45:57.784 Using username "13624694_test".
+. 2017-08-03 15:45:57.847 Attempting keyboard-interactive authentication
+. 2017-08-03 15:45:58.143 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-03 15:45:58.143 Using stored password.
+. 2017-08-03 15:45:58.222 Access granted
+. 2017-08-03 15:45:58.222 Opening session as main channel
+. 2017-08-03 15:45:58.284 Opened main channel
+. 2017-08-03 15:45:58.425 Started a shell/command
+. 2017-08-03 15:45:58.425 --------------------------------------------------------------------------
+. 2017-08-03 15:45:58.425 Using SFTP protocol.
+. 2017-08-03 15:45:58.425 Doing startup conversation with host.
+> 2017-08-03 15:45:58.425 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-03 15:45:58.503 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-03 15:45:58.503 SFTP version 3 negotiated.
+. 2017-08-03 15:45:58.503 We believe the server has signed timestamps bug
+. 2017-08-03 15:45:58.503 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-03 15:45:58.503 Getting current directory name.
+. 2017-08-03 15:45:58.503 Getting real path for '.'
+> 2017-08-03 15:45:58.503 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-03 15:45:58.565 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-03 15:45:58.565 Real path is '/'
+. 2017-08-03 15:45:58.565 Startup conversation with host finished.
+< 2017-08-03 15:45:58.565 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-03 15:45:58.878 Script: pwd
+< 2017-08-03 15:45:58.878 Script: /
+> 2017-08-03 15:57:36.071 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\ahmede\Desktop\testFile.txt" "/incoming/EzabiPhotos/"
+. 2017-08-03 15:57:36.072 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-03 15:57:36.072   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-03 15:57:36.072   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-03 15:57:36.072   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-03 15:57:36.072 File: 'C:\Users\ahmede\Desktop\testFile.txt' [2017-08-03T13:20:08.203Z] [0]
+. 2017-08-03 15:57:36.073 Copying "C:\Users\ahmede\Desktop\testFile.txt" to remote directory started.
+. 2017-08-03 15:57:36.073 Binary transfer mode selected.
+. 2017-08-03 15:57:36.073 Opening remote file.
+> 2017-08-03 15:57:36.073 Type: SSH_FXP_OPEN, Size: 59, Number: 259
+. 2017-08-03 15:57:36.073 Received disconnect message (by application)
+. 2017-08-03 15:57:36.073 Disconnection message text: Manually close SSH session.
+. 2017-08-03 15:57:36.073 Server sent disconnect message
+. 2017-08-03 15:57:36.073 type 11 (by application):
+. 2017-08-03 15:57:36.073 "Manually close SSH session."
+. 2017-08-03 15:57:36.106 Connection was lost, asking what to do.
+. 2017-08-03 15:57:36.107 Asking user:
+. 2017-08-03 15:57:36.107 Server sent disconnect message
+. 2017-08-03 15:57:36.107 type 11 (by application):
+. 2017-08-03 15:57:36.107 "Manually close SSH session." ()
+< 2017-08-03 15:57:36.108 Script: Server sent disconnect message
+< 2017-08-03 15:57:36.108 type 11 (by application):
+< 2017-08-03 15:57:36.108 "Manually close SSH session."
+< 2017-08-03 15:57:41.148 Script: Searching for host...
+. 2017-08-03 15:57:41.148 Looking up host "sftp012.successfactors.eu"
+. 2017-08-03 15:57:41.148 Connecting to 155.56.220.163 port 22
+< 2017-08-03 15:57:41.211 Script: Connecting to host...
+. 2017-08-03 15:57:41.289 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-03 15:57:41.289 Using SSH protocol version 2
+. 2017-08-03 15:57:41.289 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-03 15:57:41.352 Doing Diffie-Hellman group exchange
+. 2017-08-03 15:57:41.492 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-03 15:57:41.758 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+< 2017-08-03 15:57:41.758 Script: Authenticating...
+. 2017-08-03 15:57:41.758 Host key matches configured key
+. 2017-08-03 15:57:41.758 Host key fingerprint is:
+. 2017-08-03 15:57:41.758 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 15:57:41.758 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-03 15:57:41.758 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-03 15:57:41.758 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-03 15:57:41.758 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-03 15:57:41.900 Using username "13624694_test".
+< 2017-08-03 15:57:41.900 Script: Using username "13624694_test".
+. 2017-08-03 15:57:41.963 Attempting keyboard-interactive authentication
+. 2017-08-03 15:57:42.041 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-03 15:57:42.041 Using stored password.
+< 2017-08-03 15:57:42.041 Script: Authenticating with pre-entered password.
+. 2017-08-03 15:57:42.119 Access granted
+. 2017-08-03 15:57:42.119 Opening session as main channel
+. 2017-08-03 15:57:42.182 Opened main channel
+. 2017-08-03 15:57:42.322 Started a shell/command
+< 2017-08-03 15:57:42.322 Script: Authenticated.
+. 2017-08-03 15:57:42.322 Doing startup conversation with host.
+< 2017-08-03 15:57:42.322 Script: Starting the session...
+> 2017-08-03 15:57:42.322 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-03 15:57:42.400 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-03 15:57:42.400 SFTP version 3 negotiated.
+. 2017-08-03 15:57:42.400 We believe the server has signed timestamps bug
+. 2017-08-03 15:57:42.400 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-03 15:57:42.400 Changing directory to "/".
+. 2017-08-03 15:57:42.400 Getting real path for '/'
+> 2017-08-03 15:57:42.400 Type: SSH_FXP_REALPATH, Size: 10, Number: 528
+< 2017-08-03 15:57:42.463 Type: SSH_FXP_NAME, Size: 23, Number: 528
+. 2017-08-03 15:57:42.463 Real path is '/'
+. 2017-08-03 15:57:42.463 Trying to open directory "/".
+> 2017-08-03 15:57:42.842 Type: SSH_FXP_LSTAT, Size: 10, Number: 775
+< 2017-08-03 15:57:42.904 Type: SSH_FXP_ATTRS, Size: 21, Number: 775
+. 2017-08-03 15:57:42.920 Getting current directory name.
+. 2017-08-03 15:57:42.920 Startup conversation with host finished.
+< 2017-08-03 15:57:42.920 Script: Session started.
+. 2017-08-03 15:57:42.920 File: 'C:\Users\ahmede\Desktop\testFile.txt' [2017-08-03T13:20:08.203Z] [0]
+. 2017-08-03 15:57:42.920 Copying "C:\Users\ahmede\Desktop\testFile.txt" to remote directory started.
+. 2017-08-03 15:57:42.920 Binary transfer mode selected.
+. 2017-08-03 15:57:42.920 Opening remote file.
+> 2017-08-03 15:57:42.920 Type: SSH_FXP_OPEN, Size: 59, Number: 1027
+< 2017-08-03 15:57:42.983 Type: SSH_FXP_HANDLE, Size: 10, Number: 1027
+> 2017-08-03 15:57:42.983 Type: SSH_FXP_CLOSE, Size: 10, Number: 1540
+< 2017-08-03 15:57:43.061 Type: SSH_FXP_STATUS, Size: 21, Number: 1540
+< 2017-08-03 15:57:43.061 Status code: 0
+. 2017-08-03 15:57:43.061 Transfer done: 'C:\Users\ahmede\Desktop\testFile.txt' [0]
+> 2017-08-03 16:05:58.362 Script: exit
+. 2017-08-03 16:05:58.362 Script: Exit code: 0
+. 2017-08-03 16:05:58.362 Closing connection.
+. 2017-08-03 16:05:58.362 Sending special code: 12
+. 2017-08-03 16:05:58.362 Sent EOF message
+. 2017-08-03 16:06:17.343 --------------------------------------------------------------------------
+. 2017-08-03 16:06:17.343 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2017-08-03 16:06:17.343 Configuration: nul
+. 2017-08-03 16:06:17.343 Log level: Normal
+. 2017-08-03 16:06:17.343 Local account: ECS\ahmede
+. 2017-08-03 16:06:17.343 Working directory: F:\sftp\UploadToSFTP\bin\Debug
+. 2017-08-03 16:06:17.343 Process ID: 856
+. 2017-08-03 16:06:17.343 Command-line: "F:\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\ahmede\AppData\Local\Temp\wscp1640.0271D65F.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_5696_3888474_322
+. 2017-08-03 16:06:17.343 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-03 16:06:17.343 Login time: Thursday, August 3, 2017 4:06:17 PM
+. 2017-08-03 16:06:17.343 --------------------------------------------------------------------------
+. 2017-08-03 16:06:17.343 Script: Retrospectively logging previous script records:
+> 2017-08-03 16:06:17.343 Script: option batch on
+< 2017-08-03 16:06:17.343 Script: batch           on        
+< 2017-08-03 16:06:17.343 Script: reconnecttime   120       
+> 2017-08-03 16:06:17.343 Script: option confirm off
+< 2017-08-03 16:06:17.343 Script: confirm         off       
+> 2017-08-03 16:06:17.343 Script: option reconnecttime 120
+< 2017-08-03 16:06:17.343 Script: reconnecttime   120       
+> 2017-08-03 16:06:17.343 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-03 16:06:17.343 --------------------------------------------------------------------------
+. 2017-08-03 16:06:17.343 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-03 16:06:17.343 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-03 16:06:17.343 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-03 16:06:17.343 Tunnel: No
+. 2017-08-03 16:06:17.343 Transfer Protocol: SFTP
+. 2017-08-03 16:06:17.343 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-03 16:06:17.343 Disable Nagle: No
+. 2017-08-03 16:06:17.343 Proxy: none
+. 2017-08-03 16:06:17.343 Send buffer: 262144
+. 2017-08-03 16:06:17.343 SSH protocol version: 2; Compression: No
+. 2017-08-03 16:06:17.343 Bypass authentication: No
+. 2017-08-03 16:06:17.343 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-03 16:06:17.343 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-03 16:06:17.343 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-03 16:06:17.343 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-03 16:06:17.343 Simple channel: Yes
+. 2017-08-03 16:06:17.343 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-03 16:06:17.343 Shell: default
+. 2017-08-03 16:06:17.343 EOL: 0, UTF: 2
+. 2017-08-03 16:06:17.343 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-03 16:06:17.343 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-03 16:06:17.343 SFTP Bugs: A,A
+. 2017-08-03 16:06:17.343 SFTP Server: default
+. 2017-08-03 16:06:17.343 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-03 16:06:17.343 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-03 16:06:17.343 DST mode: 1
+. 2017-08-03 16:06:17.343 --------------------------------------------------------------------------
+. 2017-08-03 16:06:17.343 Looking up host "sftp012.successfactors.eu"
+. 2017-08-03 16:06:17.343 Connecting to 155.56.220.163 port 22
+. 2017-08-03 16:06:17.483 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-03 16:06:17.483 Using SSH protocol version 2
+. 2017-08-03 16:06:17.483 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-03 16:06:17.561 Doing Diffie-Hellman group exchange
+. 2017-08-03 16:06:17.686 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-03 16:06:17.999 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 16:06:17.999 Host key matches configured key
+. 2017-08-03 16:06:17.999 Host key fingerprint is:
+. 2017-08-03 16:06:17.999 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-03 16:06:17.999 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-03 16:06:17.999 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-03 16:06:17.999 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-03 16:06:17.999 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-03 16:06:18.124 Using username "13624694_test".
+. 2017-08-03 16:06:18.202 Attempting keyboard-interactive authentication
+. 2017-08-03 16:06:18.265 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-03 16:06:18.265 Using stored password.
+. 2017-08-03 16:06:18.343 Access granted
+. 2017-08-03 16:06:18.718 Opening session as main channel
+. 2017-08-03 16:06:18.780 Opened main channel
+. 2017-08-03 16:06:18.921 Started a shell/command
+. 2017-08-03 16:06:18.921 --------------------------------------------------------------------------
+. 2017-08-03 16:06:18.921 Using SFTP protocol.
+. 2017-08-03 16:06:18.921 Doing startup conversation with host.
+> 2017-08-03 16:06:18.921 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-03 16:06:18.999 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-03 16:06:18.999 SFTP version 3 negotiated.
+. 2017-08-03 16:06:18.999 We believe the server has signed timestamps bug
+. 2017-08-03 16:06:18.999 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-03 16:06:18.999 Getting current directory name.
+. 2017-08-03 16:06:18.999 Getting real path for '.'
+> 2017-08-03 16:06:18.999 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-03 16:06:19.061 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-03 16:06:19.061 Real path is '/'
+. 2017-08-03 16:06:19.061 Startup conversation with host finished.
+< 2017-08-03 16:06:19.061 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-03 16:06:19.374 Script: pwd
+< 2017-08-03 16:06:19.374 Script: /
+> 2017-08-03 16:06:21.391 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\ahmede\Desktop\testFile.txt" "/incoming/EzabiPhotos/"
+. 2017-08-03 16:06:21.407 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-03 16:06:21.407   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-03 16:06:21.407   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-03 16:06:21.407   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-03 16:06:21.407 File: 'C:\Users\ahmede\Desktop\testFile.txt' [2017-08-03T13:20:08.203Z] [0]
+. 2017-08-03 16:06:21.407 Copying "C:\Users\ahmede\Desktop\testFile.txt" to remote directory started.
+. 2017-08-03 16:06:21.407 Binary transfer mode selected.
+. 2017-08-03 16:06:21.407 Opening remote file.
+> 2017-08-03 16:06:21.407 Type: SSH_FXP_OPEN, Size: 59, Number: 259
+< 2017-08-03 16:06:21.470 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-03 16:06:21.470 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-03 16:06:21.548 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-03 16:06:21.548 Status code: 0
+. 2017-08-03 16:06:21.548 Transfer done: 'C:\Users\ahmede\Desktop\testFile.txt' [0]
+> 2017-08-03 16:06:34.770 Script: exit
+. 2017-08-03 16:06:34.770 Script: Exit code: 0
+. 2017-08-03 16:06:34.770 Closing connection.
+. 2017-08-03 16:06:34.770 Sending special code: 12
+. 2017-08-03 16:06:34.770 Sent EOF message
+. 2017-08-06 09:06:37.437 --------------------------------------------------------------------------
+. 2017-08-06 09:06:37.437 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Enterprise)
+. 2017-08-06 09:06:37.437 Configuration: nul
+. 2017-08-06 09:06:37.437 Log level: Normal
+. 2017-08-06 09:06:37.437 Local account: ECS\ahmede
+. 2017-08-06 09:06:37.437 Working directory: F:\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 09:06:37.437 Process ID: 9868
+. 2017-08-06 09:06:37.437 Command-line: "F:\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\ahmede\AppData\Local\Temp\wscp22CC.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_8908_44624228_248
+. 2017-08-06 09:06:37.437 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 09:06:37.437 Login time: Sunday, August 6, 2017 9:06:37 AM
+. 2017-08-06 09:06:37.437 --------------------------------------------------------------------------
+. 2017-08-06 09:06:37.437 Script: Retrospectively logging previous script records:
+> 2017-08-06 09:06:37.437 Script: option batch on
+< 2017-08-06 09:06:37.437 Script: batch           on        
+< 2017-08-06 09:06:37.437 Script: reconnecttime   120       
+> 2017-08-06 09:06:37.437 Script: option confirm off
+< 2017-08-06 09:06:37.437 Script: confirm         off       
+> 2017-08-06 09:06:37.437 Script: option reconnecttime 120
+< 2017-08-06 09:06:37.437 Script: reconnecttime   120       
+> 2017-08-06 09:06:37.437 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 09:06:37.437 --------------------------------------------------------------------------
+. 2017-08-06 09:06:37.437 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 09:06:37.437 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 09:06:37.437 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 09:06:37.437 Tunnel: No
+. 2017-08-06 09:06:37.437 Transfer Protocol: SFTP
+. 2017-08-06 09:06:37.437 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 09:06:37.437 Disable Nagle: No
+. 2017-08-06 09:06:37.437 Proxy: none
+. 2017-08-06 09:06:37.437 Send buffer: 262144
+. 2017-08-06 09:06:37.437 SSH protocol version: 2; Compression: No
+. 2017-08-06 09:06:37.437 Bypass authentication: No
+. 2017-08-06 09:06:37.437 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 09:06:37.437 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 09:06:37.437 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 09:06:37.437 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 09:06:37.437 Simple channel: Yes
+. 2017-08-06 09:06:37.437 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 09:06:37.437 Shell: default
+. 2017-08-06 09:06:37.437 EOL: 0, UTF: 2
+. 2017-08-06 09:06:37.437 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 09:06:37.437 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 09:06:37.437 SFTP Bugs: A,A
+. 2017-08-06 09:06:37.437 SFTP Server: default
+. 2017-08-06 09:06:37.437 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 09:06:37.437 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 09:06:37.437 DST mode: 1
+. 2017-08-06 09:06:37.437 --------------------------------------------------------------------------
+. 2017-08-06 09:06:37.437 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 09:06:37.437 Connecting to 155.56.220.163 port 22
+. 2017-08-06 09:06:37.578 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 09:06:37.578 Using SSH protocol version 2
+. 2017-08-06 09:06:37.578 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 09:06:37.656 Doing Diffie-Hellman group exchange
+. 2017-08-06 09:06:37.781 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 09:06:38.078 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 09:06:38.078 Host key matches configured key
+. 2017-08-06 09:06:38.078 Host key fingerprint is:
+. 2017-08-06 09:06:38.078 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 09:06:38.078 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 09:06:38.078 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 09:06:38.078 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 09:06:38.078 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 09:06:38.297 Using username "13624694_test".
+. 2017-08-06 09:06:38.406 Attempting keyboard-interactive authentication
+. 2017-08-06 09:06:38.515 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 09:06:38.734 Using stored password.
+. 2017-08-06 09:06:38.828 Access granted
+. 2017-08-06 09:06:38.828 Opening session as main channel
+. 2017-08-06 09:06:38.922 Opened main channel
+. 2017-08-06 09:06:39.047 Started a shell/command
+. 2017-08-06 09:06:39.047 --------------------------------------------------------------------------
+. 2017-08-06 09:06:39.047 Using SFTP protocol.
+. 2017-08-06 09:06:39.047 Doing startup conversation with host.
+> 2017-08-06 09:06:39.047 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 09:06:39.125 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 09:06:39.125 SFTP version 3 negotiated.
+. 2017-08-06 09:06:39.125 We believe the server has signed timestamps bug
+. 2017-08-06 09:06:39.125 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 09:06:39.125 Getting current directory name.
+. 2017-08-06 09:06:39.125 Getting real path for '.'
+> 2017-08-06 09:06:39.125 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 09:06:39.219 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 09:06:39.219 Real path is '/'
+. 2017-08-06 09:06:39.219 Startup conversation with host finished.
+< 2017-08-06 09:06:39.219 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 09:06:39.469 Script: pwd
+< 2017-08-06 09:06:39.469 Script: /
+> 2017-08-06 09:07:10.734 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\ahmede\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 09:07:10.734 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 09:07:10.734   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-06 09:07:10.734   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 09:07:10.734   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 09:07:10.734 File: 'C:\Users\ahmede\Desktop\test1.txt' [2017-08-06T07:06:04.812Z] [0]
+. 2017-08-06 09:07:10.734 Copying "C:\Users\ahmede\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 09:07:10.734 Binary transfer mode selected.
+. 2017-08-06 09:07:10.734 Opening remote file.
+> 2017-08-06 09:07:10.734 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 09:07:10.844 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 09:07:10.844 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-06 09:07:10.953 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 09:07:10.953 Status code: 0
+. 2017-08-06 09:07:10.953 Transfer done: 'C:\Users\ahmede\Desktop\test1.txt' [0]
+> 2017-08-06 09:07:14.484 Script: exit
+. 2017-08-06 09:07:14.484 Script: Exit code: 0
+. 2017-08-06 09:07:14.484 Closing connection.
+. 2017-08-06 09:07:14.484 Sending special code: 12
+. 2017-08-06 09:07:14.484 Sent EOF message
+. 2017-08-06 18:48:00.282 --------------------------------------------------------------------------
+. 2017-08-06 18:48:00.282 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 18:48:00.282 Configuration: nul
+. 2017-08-06 18:48:00.282 Log level: Normal
+. 2017-08-06 18:48:00.282 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 18:48:00.282 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 18:48:00.283 Process ID: 10848
+. 2017-08-06 18:48:00.283 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp1584.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_5508_44624228_987
+. 2017-08-06 18:48:00.283 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 18:48:00.283 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 18:48:00.283 Login time: Sunday, August 6, 2017 6:48:00 PM
+. 2017-08-06 18:48:00.283 --------------------------------------------------------------------------
+. 2017-08-06 18:48:00.283 Script: Retrospectively logging previous script records:
+> 2017-08-06 18:48:00.283 Script: option batch on
+< 2017-08-06 18:48:00.283 Script: batch           on        
+< 2017-08-06 18:48:00.283 Script: reconnecttime   120       
+> 2017-08-06 18:48:00.283 Script: option confirm off
+< 2017-08-06 18:48:00.283 Script: confirm         off       
+> 2017-08-06 18:48:00.283 Script: option reconnecttime 120
+< 2017-08-06 18:48:00.283 Script: reconnecttime   120       
+> 2017-08-06 18:48:00.283 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 18:48:00.283 --------------------------------------------------------------------------
+. 2017-08-06 18:48:00.283 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 18:48:00.283 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 18:48:00.283 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 18:48:00.283 Tunnel: No
+. 2017-08-06 18:48:00.283 Transfer Protocol: SFTP
+. 2017-08-06 18:48:00.283 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 18:48:00.283 Disable Nagle: No
+. 2017-08-06 18:48:00.283 Proxy: none
+. 2017-08-06 18:48:00.283 Send buffer: 262144
+. 2017-08-06 18:48:00.283 SSH protocol version: 2; Compression: No
+. 2017-08-06 18:48:00.283 Bypass authentication: No
+. 2017-08-06 18:48:00.283 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 18:48:00.283 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 18:48:00.283 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 18:48:00.283 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 18:48:00.283 Simple channel: Yes
+. 2017-08-06 18:48:00.283 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 18:48:00.283 Shell: default
+. 2017-08-06 18:48:00.283 EOL: 0, UTF: 2
+. 2017-08-06 18:48:00.283 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 18:48:00.283 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 18:48:00.283 SFTP Bugs: A,A
+. 2017-08-06 18:48:00.283 SFTP Server: default
+. 2017-08-06 18:48:00.283 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 18:48:00.283 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 18:48:00.283 DST mode: 1
+. 2017-08-06 18:48:00.283 --------------------------------------------------------------------------
+. 2017-08-06 18:48:00.284 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 18:48:00.357 Connecting to 155.56.220.163 port 22
+. 2017-08-06 18:48:00.755 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 18:48:00.755 Using SSH protocol version 2
+. 2017-08-06 18:48:00.755 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 18:48:00.961 Doing Diffie-Hellman group exchange
+. 2017-08-06 18:48:01.635 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 18:48:01.997 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:48:01.997 Host key matches configured key
+. 2017-08-06 18:48:01.998 Host key fingerprint is:
+. 2017-08-06 18:48:01.998 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:48:01.998 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 18:48:01.998 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 18:48:01.998 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 18:48:01.998 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 18:48:02.401 Using username "13624694_test".
+. 2017-08-06 18:48:02.610 Attempting keyboard-interactive authentication
+. 2017-08-06 18:48:02.818 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 18:48:02.818 Using stored password.
+. 2017-08-06 18:48:03.028 Access granted
+. 2017-08-06 18:48:03.028 Opening session as main channel
+. 2017-08-06 18:48:03.232 Opened main channel
+. 2017-08-06 18:48:03.740 Started a shell/command
+. 2017-08-06 18:48:03.740 --------------------------------------------------------------------------
+. 2017-08-06 18:48:03.744 Using SFTP protocol.
+. 2017-08-06 18:48:03.744 Doing startup conversation with host.
+> 2017-08-06 18:48:03.746 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 18:48:07.140 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 18:48:07.140 SFTP version 3 negotiated.
+. 2017-08-06 18:48:07.140 We believe the server has signed timestamps bug
+. 2017-08-06 18:48:07.140 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 18:48:07.143 Getting current directory name.
+. 2017-08-06 18:48:07.144 Getting real path for '.'
+> 2017-08-06 18:48:07.144 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 18:48:07.585 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 18:48:07.587 Real path is '/'
+. 2017-08-06 18:48:07.587 Startup conversation with host finished.
+< 2017-08-06 18:48:07.587 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 18:48:07.943 Script: pwd
+< 2017-08-06 18:48:07.944 Script: /
+> 2017-08-06 18:48:08.080 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 18:48:08.084 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 18:48:08.084   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-06 18:48:08.084   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 18:48:08.084   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 18:48:08.085 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 18:48:08.086 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 18:48:08.086 Binary transfer mode selected.
+. 2017-08-06 18:48:08.086 Opening remote file.
+> 2017-08-06 18:48:08.086 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 18:48:09.394 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 18:48:09.394 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-06 18:48:09.653 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 18:48:09.653 Status code: 0
+. 2017-08-06 18:48:09.653 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 18:48:10.042 Script: exit
+. 2017-08-06 18:48:10.042 Script: Exit code: 0
+. 2017-08-06 18:48:10.042 Closing connection.
+. 2017-08-06 18:48:10.042 Sending special code: 12
+. 2017-08-06 18:48:10.042 Sent EOF message
+. 2017-08-06 18:49:04.037 --------------------------------------------------------------------------
+. 2017-08-06 18:49:04.037 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 18:49:04.038 Configuration: nul
+. 2017-08-06 18:49:04.038 Log level: Normal
+. 2017-08-06 18:49:04.038 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 18:49:04.038 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 18:49:04.038 Process ID: 9220
+. 2017-08-06 18:49:04.038 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp2790.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_10128_44624228_99
+. 2017-08-06 18:49:04.038 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 18:49:04.038 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 18:49:04.038 Login time: Sunday, August 6, 2017 6:49:04 PM
+. 2017-08-06 18:49:04.038 --------------------------------------------------------------------------
+. 2017-08-06 18:49:04.038 Script: Retrospectively logging previous script records:
+> 2017-08-06 18:49:04.038 Script: option batch on
+< 2017-08-06 18:49:04.038 Script: batch           on        
+< 2017-08-06 18:49:04.038 Script: reconnecttime   120       
+> 2017-08-06 18:49:04.038 Script: option confirm off
+< 2017-08-06 18:49:04.038 Script: confirm         off       
+> 2017-08-06 18:49:04.038 Script: option reconnecttime 120
+< 2017-08-06 18:49:04.038 Script: reconnecttime   120       
+> 2017-08-06 18:49:04.038 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 18:49:04.038 --------------------------------------------------------------------------
+. 2017-08-06 18:49:04.038 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 18:49:04.038 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 18:49:04.038 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 18:49:04.038 Tunnel: No
+. 2017-08-06 18:49:04.038 Transfer Protocol: SFTP
+. 2017-08-06 18:49:04.038 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 18:49:04.038 Disable Nagle: No
+. 2017-08-06 18:49:04.038 Proxy: none
+. 2017-08-06 18:49:04.038 Send buffer: 262144
+. 2017-08-06 18:49:04.038 SSH protocol version: 2; Compression: No
+. 2017-08-06 18:49:04.038 Bypass authentication: No
+. 2017-08-06 18:49:04.038 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 18:49:04.038 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 18:49:04.038 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 18:49:04.038 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 18:49:04.038 Simple channel: Yes
+. 2017-08-06 18:49:04.038 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 18:49:04.038 Shell: default
+. 2017-08-06 18:49:04.038 EOL: 0, UTF: 2
+. 2017-08-06 18:49:04.038 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 18:49:04.038 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 18:49:04.038 SFTP Bugs: A,A
+. 2017-08-06 18:49:04.038 SFTP Server: default
+. 2017-08-06 18:49:04.038 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 18:49:04.038 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 18:49:04.038 DST mode: 1
+. 2017-08-06 18:49:04.038 --------------------------------------------------------------------------
+. 2017-08-06 18:49:04.038 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 18:49:04.043 Connecting to 155.56.220.163 port 22
+. 2017-08-06 18:49:04.480 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 18:49:04.481 Using SSH protocol version 2
+. 2017-08-06 18:49:04.481 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 18:49:04.703 Doing Diffie-Hellman group exchange
+. 2017-08-06 18:49:05.138 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 18:49:05.517 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:49:05.517 Host key matches configured key
+. 2017-08-06 18:49:05.517 Host key fingerprint is:
+. 2017-08-06 18:49:05.517 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:49:05.517 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 18:49:05.517 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 18:49:05.517 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 18:49:05.517 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 18:49:05.967 Using username "13624694_test".
+. 2017-08-06 18:49:06.194 Attempting keyboard-interactive authentication
+. 2017-08-06 18:49:06.446 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 18:49:06.446 Using stored password.
+. 2017-08-06 18:49:06.676 Access granted
+. 2017-08-06 18:49:06.676 Opening session as main channel
+. 2017-08-06 18:49:06.900 Opened main channel
+. 2017-08-06 18:49:07.354 Started a shell/command
+. 2017-08-06 18:49:07.354 --------------------------------------------------------------------------
+. 2017-08-06 18:49:07.354 Using SFTP protocol.
+. 2017-08-06 18:49:07.354 Doing startup conversation with host.
+> 2017-08-06 18:49:07.354 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 18:49:07.577 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 18:49:07.577 SFTP version 3 negotiated.
+. 2017-08-06 18:49:07.577 We believe the server has signed timestamps bug
+. 2017-08-06 18:49:07.577 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 18:49:07.577 Getting current directory name.
+. 2017-08-06 18:49:07.577 Getting real path for '.'
+> 2017-08-06 18:49:07.577 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 18:49:07.800 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 18:49:07.800 Real path is '/'
+. 2017-08-06 18:49:07.800 Startup conversation with host finished.
+< 2017-08-06 18:49:07.800 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 18:49:08.070 Script: pwd
+< 2017-08-06 18:49:08.070 Script: /
+> 2017-08-06 18:49:14.175 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 18:49:14.176 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 18:49:14.176   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-06 18:49:14.176   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 18:49:14.176   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 18:49:14.176 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 18:49:14.176 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 18:49:14.176 Binary transfer mode selected.
+. 2017-08-06 18:49:14.176 Opening remote file.
+> 2017-08-06 18:49:14.176 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 18:49:14.600 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 18:49:14.600 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-06 18:49:14.968 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 18:49:14.968 Status code: 0
+. 2017-08-06 18:49:14.968 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 18:49:16.551 Script: exit
+. 2017-08-06 18:49:16.551 Script: Exit code: 0
+. 2017-08-06 18:49:16.551 Closing connection.
+. 2017-08-06 18:49:16.551 Sending special code: 12
+. 2017-08-06 18:49:16.551 Sent EOF message
+. 2017-08-06 18:51:06.799 --------------------------------------------------------------------------
+. 2017-08-06 18:51:06.799 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 18:51:06.799 Configuration: nul
+. 2017-08-06 18:51:06.799 Log level: Normal
+. 2017-08-06 18:51:06.799 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 18:51:06.799 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 18:51:06.799 Process ID: 2588
+. 2017-08-06 18:51:06.799 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp1410.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_5136_44624228_165
+. 2017-08-06 18:51:06.800 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 18:51:06.800 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 18:51:06.800 Login time: Sunday, August 6, 2017 6:51:06 PM
+. 2017-08-06 18:51:06.800 --------------------------------------------------------------------------
+. 2017-08-06 18:51:06.800 Script: Retrospectively logging previous script records:
+> 2017-08-06 18:51:06.800 Script: option batch on
+< 2017-08-06 18:51:06.800 Script: batch           on        
+< 2017-08-06 18:51:06.800 Script: reconnecttime   120       
+> 2017-08-06 18:51:06.800 Script: option confirm off
+< 2017-08-06 18:51:06.800 Script: confirm         off       
+> 2017-08-06 18:51:06.800 Script: option reconnecttime 120
+< 2017-08-06 18:51:06.800 Script: reconnecttime   120       
+> 2017-08-06 18:51:06.800 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 18:51:06.800 --------------------------------------------------------------------------
+. 2017-08-06 18:51:06.800 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 18:51:06.800 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 18:51:06.800 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 18:51:06.800 Tunnel: No
+. 2017-08-06 18:51:06.800 Transfer Protocol: SFTP
+. 2017-08-06 18:51:06.800 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 18:51:06.800 Disable Nagle: No
+. 2017-08-06 18:51:06.800 Proxy: none
+. 2017-08-06 18:51:06.800 Send buffer: 262144
+. 2017-08-06 18:51:06.800 SSH protocol version: 2; Compression: No
+. 2017-08-06 18:51:06.800 Bypass authentication: No
+. 2017-08-06 18:51:06.800 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 18:51:06.800 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 18:51:06.800 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 18:51:06.800 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 18:51:06.800 Simple channel: Yes
+. 2017-08-06 18:51:06.800 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 18:51:06.800 Shell: default
+. 2017-08-06 18:51:06.800 EOL: 0, UTF: 2
+. 2017-08-06 18:51:06.800 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 18:51:06.800 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 18:51:06.800 SFTP Bugs: A,A
+. 2017-08-06 18:51:06.800 SFTP Server: default
+. 2017-08-06 18:51:06.800 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 18:51:06.800 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 18:51:06.800 DST mode: 1
+. 2017-08-06 18:51:06.800 --------------------------------------------------------------------------
+. 2017-08-06 18:51:06.800 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 18:51:06.804 Connecting to 155.56.220.163 port 22
+. 2017-08-06 18:51:07.364 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 18:51:07.364 Using SSH protocol version 2
+. 2017-08-06 18:51:07.364 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 18:51:08.649 Doing Diffie-Hellman group exchange
+. 2017-08-06 18:51:08.928 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 18:51:09.369 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:51:09.369 Host key matches configured key
+. 2017-08-06 18:51:09.369 Host key fingerprint is:
+. 2017-08-06 18:51:09.369 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:51:09.369 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 18:51:09.369 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 18:51:09.370 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 18:51:09.370 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 18:51:09.929 Using username "13624694_test".
+. 2017-08-06 18:51:10.211 Attempting keyboard-interactive authentication
+. 2017-08-06 18:51:10.506 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 18:51:10.506 Using stored password.
+. 2017-08-06 18:51:10.824 Access granted
+. 2017-08-06 18:51:10.824 Opening session as main channel
+. 2017-08-06 18:51:11.111 Opened main channel
+. 2017-08-06 18:51:11.685 Started a shell/command
+. 2017-08-06 18:51:11.686 --------------------------------------------------------------------------
+. 2017-08-06 18:51:11.686 Using SFTP protocol.
+. 2017-08-06 18:51:11.686 Doing startup conversation with host.
+> 2017-08-06 18:51:11.686 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 18:51:11.977 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 18:51:11.977 SFTP version 3 negotiated.
+. 2017-08-06 18:51:11.977 We believe the server has signed timestamps bug
+. 2017-08-06 18:51:11.977 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 18:51:11.977 Getting current directory name.
+. 2017-08-06 18:51:11.977 Getting real path for '.'
+> 2017-08-06 18:51:11.977 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 18:51:12.268 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 18:51:12.268 Real path is '/'
+. 2017-08-06 18:51:12.268 Startup conversation with host finished.
+< 2017-08-06 18:51:12.268 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 18:51:12.309 Script: pwd
+< 2017-08-06 18:51:12.310 Script: /
+> 2017-08-06 18:51:12.453 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 18:51:12.453 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 18:51:12.453   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-06 18:51:12.453   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 18:51:12.453   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 18:51:12.453 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 18:51:12.454 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 18:51:12.454 Binary transfer mode selected.
+. 2017-08-06 18:51:12.454 Opening remote file.
+> 2017-08-06 18:51:12.454 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 18:51:12.746 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 18:51:12.746 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-06 18:51:13.037 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 18:51:13.037 Status code: 0
+. 2017-08-06 18:51:13.037 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 18:51:13.376 Script: exit
+. 2017-08-06 18:51:13.376 Script: Exit code: 0
+. 2017-08-06 18:51:13.376 Closing connection.
+. 2017-08-06 18:51:13.376 Sending special code: 12
+. 2017-08-06 18:51:13.376 Sent EOF message
+. 2017-08-06 18:51:38.353 --------------------------------------------------------------------------
+. 2017-08-06 18:51:38.353 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 18:51:38.353 Configuration: nul
+. 2017-08-06 18:51:38.353 Log level: Normal
+. 2017-08-06 18:51:38.353 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 18:51:38.353 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 18:51:38.353 Process ID: 6276
+. 2017-08-06 18:51:38.353 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp29BC.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_10684_44624228_953
+. 2017-08-06 18:51:38.353 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 18:51:38.353 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 18:51:38.353 Login time: Sunday, August 6, 2017 6:51:38 PM
+. 2017-08-06 18:51:38.353 --------------------------------------------------------------------------
+. 2017-08-06 18:51:38.353 Script: Retrospectively logging previous script records:
+> 2017-08-06 18:51:38.353 Script: option batch on
+< 2017-08-06 18:51:38.353 Script: batch           on        
+< 2017-08-06 18:51:38.353 Script: reconnecttime   120       
+> 2017-08-06 18:51:38.353 Script: option confirm off
+< 2017-08-06 18:51:38.353 Script: confirm         off       
+> 2017-08-06 18:51:38.353 Script: option reconnecttime 120
+< 2017-08-06 18:51:38.353 Script: reconnecttime   120       
+> 2017-08-06 18:51:38.353 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 18:51:38.353 --------------------------------------------------------------------------
+. 2017-08-06 18:51:38.353 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 18:51:38.353 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 18:51:38.353 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 18:51:38.353 Tunnel: No
+. 2017-08-06 18:51:38.353 Transfer Protocol: SFTP
+. 2017-08-06 18:51:38.353 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 18:51:38.353 Disable Nagle: No
+. 2017-08-06 18:51:38.353 Proxy: none
+. 2017-08-06 18:51:38.353 Send buffer: 262144
+. 2017-08-06 18:51:38.353 SSH protocol version: 2; Compression: No
+. 2017-08-06 18:51:38.353 Bypass authentication: No
+. 2017-08-06 18:51:38.353 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 18:51:38.353 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 18:51:38.353 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 18:51:38.353 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 18:51:38.353 Simple channel: Yes
+. 2017-08-06 18:51:38.353 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 18:51:38.353 Shell: default
+. 2017-08-06 18:51:38.353 EOL: 0, UTF: 2
+. 2017-08-06 18:51:38.353 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 18:51:38.353 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 18:51:38.353 SFTP Bugs: A,A
+. 2017-08-06 18:51:38.354 SFTP Server: default
+. 2017-08-06 18:51:38.354 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 18:51:38.354 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 18:51:38.354 DST mode: 1
+. 2017-08-06 18:51:38.354 --------------------------------------------------------------------------
+. 2017-08-06 18:51:38.354 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 18:51:38.359 Connecting to 155.56.220.163 port 22
+. 2017-08-06 18:51:38.903 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 18:51:38.903 Using SSH protocol version 2
+. 2017-08-06 18:51:38.903 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 18:51:39.175 Doing Diffie-Hellman group exchange
+. 2017-08-06 18:51:39.720 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 18:51:40.158 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:51:40.159 Host key matches configured key
+. 2017-08-06 18:51:40.159 Host key fingerprint is:
+. 2017-08-06 18:51:40.159 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:51:40.159 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 18:51:40.159 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 18:51:40.159 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 18:51:40.159 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 18:51:40.703 Using username "13624694_test".
+. 2017-08-06 18:51:40.963 Attempting keyboard-interactive authentication
+. 2017-08-06 18:51:41.220 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 18:51:41.220 Using stored password.
+. 2017-08-06 18:51:41.487 Access granted
+. 2017-08-06 18:51:41.487 Opening session as main channel
+. 2017-08-06 18:51:41.748 Opened main channel
+. 2017-08-06 18:51:42.269 Started a shell/command
+. 2017-08-06 18:51:42.269 --------------------------------------------------------------------------
+. 2017-08-06 18:51:42.269 Using SFTP protocol.
+. 2017-08-06 18:51:42.269 Doing startup conversation with host.
+> 2017-08-06 18:51:42.269 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 18:51:42.535 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 18:51:42.535 SFTP version 3 negotiated.
+. 2017-08-06 18:51:42.535 We believe the server has signed timestamps bug
+. 2017-08-06 18:51:42.535 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 18:51:42.535 Getting current directory name.
+. 2017-08-06 18:51:42.535 Getting real path for '.'
+> 2017-08-06 18:51:42.535 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 18:51:42.800 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 18:51:42.800 Real path is '/'
+. 2017-08-06 18:51:42.800 Startup conversation with host finished.
+< 2017-08-06 18:51:42.801 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 18:51:42.872 Script: pwd
+< 2017-08-06 18:51:42.873 Script: /
+> 2017-08-06 18:51:43.017 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 18:51:43.020 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 18:51:43.020   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-06 18:51:43.020   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 18:51:43.020   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 18:51:43.021 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 18:51:43.021 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 18:51:43.021 Binary transfer mode selected.
+. 2017-08-06 18:51:43.021 Opening remote file.
+> 2017-08-06 18:51:43.021 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 18:51:43.294 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 18:51:43.294 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-06 18:51:43.575 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 18:51:43.575 Status code: 0
+. 2017-08-06 18:51:43.575 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 18:51:43.923 Script: exit
+. 2017-08-06 18:51:43.923 Script: Exit code: 0
+. 2017-08-06 18:51:43.923 Closing connection.
+. 2017-08-06 18:51:43.923 Sending special code: 12
+. 2017-08-06 18:51:43.923 Sent EOF message
+. 2017-08-06 18:51:58.786 --------------------------------------------------------------------------
+. 2017-08-06 18:51:58.786 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 18:51:58.786 Configuration: nul
+. 2017-08-06 18:51:58.786 Log level: Normal
+. 2017-08-06 18:51:58.786 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 18:51:58.786 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 18:51:58.786 Process ID: 9556
+. 2017-08-06 18:51:58.786 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp2194.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_8596_44624228_923
+. 2017-08-06 18:51:58.786 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 18:51:58.786 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 18:51:58.786 Login time: Sunday, August 6, 2017 6:51:58 PM
+. 2017-08-06 18:51:58.787 --------------------------------------------------------------------------
+. 2017-08-06 18:51:58.787 Script: Retrospectively logging previous script records:
+> 2017-08-06 18:51:58.787 Script: option batch on
+< 2017-08-06 18:51:58.787 Script: batch           on        
+< 2017-08-06 18:51:58.787 Script: reconnecttime   120       
+> 2017-08-06 18:51:58.787 Script: option confirm off
+< 2017-08-06 18:51:58.787 Script: confirm         off       
+> 2017-08-06 18:51:58.787 Script: option reconnecttime 120
+< 2017-08-06 18:51:58.787 Script: reconnecttime   120       
+> 2017-08-06 18:51:58.787 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 18:51:58.787 --------------------------------------------------------------------------
+. 2017-08-06 18:51:58.787 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 18:51:58.787 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 18:51:58.787 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 18:51:58.787 Tunnel: No
+. 2017-08-06 18:51:58.787 Transfer Protocol: SFTP
+. 2017-08-06 18:51:58.787 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 18:51:58.787 Disable Nagle: No
+. 2017-08-06 18:51:58.787 Proxy: none
+. 2017-08-06 18:51:58.787 Send buffer: 262144
+. 2017-08-06 18:51:58.787 SSH protocol version: 2; Compression: No
+. 2017-08-06 18:51:58.787 Bypass authentication: No
+. 2017-08-06 18:51:58.787 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 18:51:58.787 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 18:51:58.787 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 18:51:58.787 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 18:51:58.787 Simple channel: Yes
+. 2017-08-06 18:51:58.787 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 18:51:58.787 Shell: default
+. 2017-08-06 18:51:58.787 EOL: 0, UTF: 2
+. 2017-08-06 18:51:58.787 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 18:51:58.787 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 18:51:58.787 SFTP Bugs: A,A
+. 2017-08-06 18:51:58.787 SFTP Server: default
+. 2017-08-06 18:51:58.787 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 18:51:58.787 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 18:51:58.787 DST mode: 1
+. 2017-08-06 18:51:58.787 --------------------------------------------------------------------------
+. 2017-08-06 18:51:58.787 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 18:51:58.791 Connecting to 155.56.220.163 port 22
+. 2017-08-06 18:52:00.248 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 18:52:00.248 Using SSH protocol version 2
+. 2017-08-06 18:52:00.248 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 18:52:00.474 Doing Diffie-Hellman group exchange
+. 2017-08-06 18:52:00.931 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 18:52:01.305 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:52:01.305 Host key matches configured key
+. 2017-08-06 18:52:01.305 Host key fingerprint is:
+. 2017-08-06 18:52:01.305 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 18:52:01.305 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 18:52:01.305 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 18:52:01.305 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 18:52:01.305 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 18:52:01.726 Using username "13624694_test".
+. 2017-08-06 18:52:01.939 Attempting keyboard-interactive authentication
+. 2017-08-06 18:52:02.145 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 18:52:02.145 Using stored password.
+. 2017-08-06 18:52:02.358 Access granted
+. 2017-08-06 18:52:02.358 Opening session as main channel
+. 2017-08-06 18:52:03.568 Opened main channel
+. 2017-08-06 18:52:03.984 Started a shell/command
+. 2017-08-06 18:52:03.984 --------------------------------------------------------------------------
+. 2017-08-06 18:52:03.984 Using SFTP protocol.
+. 2017-08-06 18:52:03.984 Doing startup conversation with host.
+> 2017-08-06 18:52:03.985 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 18:52:05.198 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 18:52:05.198 SFTP version 3 negotiated.
+. 2017-08-06 18:52:05.198 We believe the server has signed timestamps bug
+. 2017-08-06 18:52:05.198 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 18:52:05.198 Getting current directory name.
+. 2017-08-06 18:52:05.198 Getting real path for '.'
+> 2017-08-06 18:52:05.198 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 18:52:05.413 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 18:52:05.413 Real path is '/'
+. 2017-08-06 18:52:05.413 Startup conversation with host finished.
+< 2017-08-06 18:52:05.413 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 18:52:05.795 Script: pwd
+< 2017-08-06 18:52:05.795 Script: /
+> 2017-08-06 18:52:05.940 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 18:52:05.943 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 18:52:05.943   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 
+. 2017-08-06 18:52:05.943   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 18:52:05.943   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 18:52:05.943 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 18:52:05.944 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 18:52:05.944 Binary transfer mode selected.
+. 2017-08-06 18:52:05.944 Opening remote file.
+> 2017-08-06 18:52:05.944 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 18:52:06.180 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 18:52:06.180 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+< 2017-08-06 18:52:06.419 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 18:52:06.419 Status code: 0
+. 2017-08-06 18:52:06.419 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 18:52:06.862 Script: exit
+. 2017-08-06 18:52:06.863 Script: Exit code: 0
+. 2017-08-06 18:52:06.863 Closing connection.
+. 2017-08-06 18:52:06.863 Sending special code: 12
+. 2017-08-06 18:52:06.863 Sent EOF message
+. 2017-08-06 19:04:31.149 --------------------------------------------------------------------------
+. 2017-08-06 19:04:31.149 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 19:04:31.149 Configuration: nul
+. 2017-08-06 19:04:31.149 Log level: Normal
+. 2017-08-06 19:04:31.149 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 19:04:31.149 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 19:04:31.149 Process ID: 10616
+. 2017-08-06 19:04:31.149 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp2454.03DDCAD8.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_9300_51269976_668
+. 2017-08-06 19:04:31.149 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 19:04:31.149 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 19:04:31.149 Login time: Sunday, August 6, 2017 7:04:31 PM
+. 2017-08-06 19:04:31.149 --------------------------------------------------------------------------
+. 2017-08-06 19:04:31.149 Script: Retrospectively logging previous script records:
+> 2017-08-06 19:04:31.149 Script: option batch on
+< 2017-08-06 19:04:31.149 Script: batch           on        
+< 2017-08-06 19:04:31.149 Script: reconnecttime   120       
+> 2017-08-06 19:04:31.149 Script: option confirm off
+< 2017-08-06 19:04:31.149 Script: confirm         off       
+> 2017-08-06 19:04:31.149 Script: option reconnecttime 120
+< 2017-08-06 19:04:31.149 Script: reconnecttime   120       
+> 2017-08-06 19:04:31.149 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 19:04:31.149 --------------------------------------------------------------------------
+. 2017-08-06 19:04:31.149 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 19:04:31.149 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 19:04:31.149 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 19:04:31.149 Tunnel: No
+. 2017-08-06 19:04:31.149 Transfer Protocol: SFTP
+. 2017-08-06 19:04:31.149 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 19:04:31.149 Disable Nagle: No
+. 2017-08-06 19:04:31.149 Proxy: none
+. 2017-08-06 19:04:31.149 Send buffer: 262144
+. 2017-08-06 19:04:31.149 SSH protocol version: 2; Compression: No
+. 2017-08-06 19:04:31.149 Bypass authentication: No
+. 2017-08-06 19:04:31.149 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 19:04:31.149 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 19:04:31.149 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 19:04:31.149 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 19:04:31.149 Simple channel: Yes
+. 2017-08-06 19:04:31.149 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 19:04:31.149 Shell: default
+. 2017-08-06 19:04:31.149 EOL: 0, UTF: 2
+. 2017-08-06 19:04:31.149 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 19:04:31.149 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 19:04:31.149 SFTP Bugs: A,A
+. 2017-08-06 19:04:31.149 SFTP Server: default
+. 2017-08-06 19:04:31.149 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 19:04:31.149 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 19:04:31.149 DST mode: 1
+. 2017-08-06 19:04:31.149 --------------------------------------------------------------------------
+. 2017-08-06 19:04:31.150 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 19:04:31.177 Connecting to 155.56.220.163 port 22
+. 2017-08-06 19:04:31.743 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 19:04:31.743 Using SSH protocol version 2
+. 2017-08-06 19:04:31.743 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 19:04:32.022 Doing Diffie-Hellman group exchange
+. 2017-08-06 19:04:32.576 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 19:04:33.012 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 19:04:33.012 Host key matches configured key
+. 2017-08-06 19:04:33.012 Host key fingerprint is:
+. 2017-08-06 19:04:33.012 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 19:04:33.013 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 19:04:33.013 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 19:04:33.013 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 19:04:33.013 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 19:04:33.555 Using username "13624694_test".
+. 2017-08-06 19:04:33.830 Attempting keyboard-interactive authentication
+. 2017-08-06 19:04:34.102 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 19:04:34.102 Using stored password.
+. 2017-08-06 19:04:34.384 Access granted
+. 2017-08-06 19:04:34.384 Opening session as main channel
+. 2017-08-06 19:04:34.647 Opened main channel
+. 2017-08-06 19:04:35.191 Started a shell/command
+. 2017-08-06 19:04:35.191 --------------------------------------------------------------------------
+. 2017-08-06 19:04:35.191 Using SFTP protocol.
+. 2017-08-06 19:04:35.191 Doing startup conversation with host.
+> 2017-08-06 19:04:35.191 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 19:04:35.465 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 19:04:35.465 SFTP version 3 negotiated.
+. 2017-08-06 19:04:35.465 We believe the server has signed timestamps bug
+. 2017-08-06 19:04:35.465 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 19:04:35.465 Getting current directory name.
+. 2017-08-06 19:04:35.465 Getting real path for '.'
+> 2017-08-06 19:04:35.465 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 19:04:35.742 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 19:04:35.742 Real path is '/'
+. 2017-08-06 19:04:35.742 Startup conversation with host finished.
+< 2017-08-06 19:04:35.742 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 19:04:36.184 Script: pwd
+< 2017-08-06 19:04:36.185 Script: /
+> 2017-08-06 19:04:36.329 Script: put  -nopermissions -preservetime -transfer="binary" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 19:04:36.333 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 19:04:36.333   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2017-08-06 19:04:36.333   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 19:04:36.333   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 19:04:36.333 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 19:04:36.333 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 19:04:36.333 Binary transfer mode selected.
+. 2017-08-06 19:04:36.333 Opening remote file.
+> 2017-08-06 19:04:36.333 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 19:04:36.631 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 19:04:36.631 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+> 2017-08-06 19:04:36.631 Type: SSH_FXP_SETSTAT, Size: 52, Number: 521
+< 2017-08-06 19:04:36.929 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 19:04:36.929 Status code: 0
+. 2017-08-06 19:04:36.929 Preserving timestamp [2017-08-06T16:47:55.000Z]
+< 2017-08-06 19:04:37.230 Type: SSH_FXP_STATUS, Size: 21, Number: 521
+< 2017-08-06 19:04:37.230 Status code: 0
+. 2017-08-06 19:04:37.230 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 19:04:37.745 Script: exit
+. 2017-08-06 19:04:37.745 Script: Exit code: 0
+. 2017-08-06 19:04:37.745 Closing connection.
+. 2017-08-06 19:04:37.745 Sending special code: 12
+. 2017-08-06 19:04:37.745 Sent EOF message
+. 2017-08-06 19:05:01.852 --------------------------------------------------------------------------
+. 2017-08-06 19:05:01.852 WinSCP Version 5.7.4 (Build 5553) (OS 10.0.14393 - Windows 10 Home Single Language)
+. 2017-08-06 19:05:01.852 Configuration: nul
+. 2017-08-06 19:05:01.852 Log level: Normal
+. 2017-08-06 19:05:01.852 Local account: LAPTOP-F5ACHUI5\Sheikh
+. 2017-08-06 19:05:01.852 Working directory: C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug
+. 2017-08-06 19:05:01.852 Process ID: 7972
+. 2017-08-06 19:05:01.852 Command-line: "C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\winscp.exe" /xmllog="C:\Users\Sheikh\AppData\Local\Temp\wscp225C.03DEA808.tmp" /xmlgroups /nointeractiveinput /dotnet=574  /ini=nul /log="your log path"  /console /consoleinstance=_8796_44624228_856
+. 2017-08-06 19:05:01.852 Time zone: Current: GMT+2 (Egypt Standard Time), No DST
+. 2017-08-06 19:05:01.852 Warning: System option "Automatically adjust clock for Daylight Saving Time" is disabled, timestamps will not be represented correctly
+. 2017-08-06 19:05:01.852 Login time: Sunday, August 6, 2017 7:05:01 PM
+. 2017-08-06 19:05:01.852 --------------------------------------------------------------------------
+. 2017-08-06 19:05:01.852 Script: Retrospectively logging previous script records:
+> 2017-08-06 19:05:01.852 Script: option batch on
+< 2017-08-06 19:05:01.852 Script: batch           on        
+< 2017-08-06 19:05:01.852 Script: reconnecttime   120       
+> 2017-08-06 19:05:01.852 Script: option confirm off
+< 2017-08-06 19:05:01.852 Script: confirm         off       
+> 2017-08-06 19:05:01.852 Script: option reconnecttime 120
+< 2017-08-06 19:05:01.852 Script: reconnecttime   120       
+> 2017-08-06 19:05:01.852 Script: open sftp://13624694_test:***@sftp012.successfactors.eu:22 -hostkey="ssh-rsa 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16" -timeout=15
+. 2017-08-06 19:05:01.853 --------------------------------------------------------------------------
+. 2017-08-06 19:05:01.853 Session name: 13624694_test@sftp012.successfactors.eu (Ad-Hoc site)
+. 2017-08-06 19:05:01.853 Host name: sftp012.successfactors.eu (Port: 22)
+. 2017-08-06 19:05:01.853 User name: 13624694_test (Password: Yes, Key file: No)
+. 2017-08-06 19:05:01.853 Tunnel: No
+. 2017-08-06 19:05:01.853 Transfer Protocol: SFTP
+. 2017-08-06 19:05:01.853 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-08-06 19:05:01.853 Disable Nagle: No
+. 2017-08-06 19:05:01.853 Proxy: none
+. 2017-08-06 19:05:01.853 Send buffer: 262144
+. 2017-08-06 19:05:01.853 SSH protocol version: 2; Compression: No
+. 2017-08-06 19:05:01.853 Bypass authentication: No
+. 2017-08-06 19:05:01.853 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-08-06 19:05:01.853 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-08-06 19:05:01.853 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-08-06 19:05:01.853 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2017-08-06 19:05:01.853 Simple channel: Yes
+. 2017-08-06 19:05:01.853 Return code variable: Autodetect; Lookup user groups: A
+. 2017-08-06 19:05:01.853 Shell: default
+. 2017-08-06 19:05:01.853 EOL: 0, UTF: 2
+. 2017-08-06 19:05:01.853 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-08-06 19:05:01.853 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-08-06 19:05:01.853 SFTP Bugs: A,A
+. 2017-08-06 19:05:01.853 SFTP Server: default
+. 2017-08-06 19:05:01.853 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-08-06 19:05:01.853 Cache directory changes: Yes, Permanent: Yes
+. 2017-08-06 19:05:01.853 DST mode: 1
+. 2017-08-06 19:05:01.853 --------------------------------------------------------------------------
+. 2017-08-06 19:05:01.853 Looking up host "sftp012.successfactors.eu"
+. 2017-08-06 19:05:01.857 Connecting to 155.56.220.163 port 22
+. 2017-08-06 19:05:02.395 Server version: SSH-2.0-1.82_sshlib xxxx
+. 2017-08-06 19:05:02.395 Using SSH protocol version 2
+. 2017-08-06 19:05:02.395 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2017-08-06 19:05:02.677 Doing Diffie-Hellman group exchange
+. 2017-08-06 19:05:03.233 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-08-06 19:05:03.661 Verifying host key rsa2 0x11,0xdab1f364ae8cb511 ed1f07d62db6bd50 df2edaecbbce106b 451fd98137f3acb0 19cc835c5750f07a 15c902fece1d8180 39e34438aa387646 75802a0ee2d85f84 bae4bf98654f2759 b81ca52a9483af41 b160839a58a59f1d 55f1802414080c8c 928a4831841f5217 0c7c60573d12c410 fa93580d737e549f f72ac980dc4bfe81 99905fb8d198de05 a50f5bcfc938b796 b4a9e1de1cb1ccc9 b0e4fe8e56a525e7 c8802c68cb45c633 bc42f19de3a09f8c 1396f11e9cd26b00 d6c3ffd2fa70350f 6df644a9314ea4bc e78d6ebcc8f67e2f b7fa2880e68965c8 240d8fb6eae849b8 c0bdb65053da11f1 932d178680b3546c 2b17248c6a4bca10 f24d69eadff0b7e1  with fingerprint ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 19:05:03.662 Host key matches configured key
+. 2017-08-06 19:05:03.662 Host key fingerprint is:
+. 2017-08-06 19:05:03.662 ssh-rsa 2048 32:f1:ee:d2:59:ad:2b:95:d4:49:c7:86:b3:8e:4f:16
+. 2017-08-06 19:05:03.662 Initialised AES-256 SDCTR client->server encryption
+. 2017-08-06 19:05:03.662 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-08-06 19:05:03.662 Initialised AES-256 SDCTR server->client encryption
+. 2017-08-06 19:05:03.662 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-08-06 19:05:04.215 Using username "13624694_test".
+. 2017-08-06 19:05:04.501 Attempting keyboard-interactive authentication
+. 2017-08-06 19:05:04.785 Prompt (keyboard interactive, "SSH server authentication", "Using keyboard-interactive authentication.", "Enter password: ")
+. 2017-08-06 19:05:04.785 Using stored password.
+. 2017-08-06 19:05:05.073 Access granted
+. 2017-08-06 19:05:05.073 Opening session as main channel
+. 2017-08-06 19:05:05.350 Opened main channel
+. 2017-08-06 19:05:05.910 Started a shell/command
+. 2017-08-06 19:05:05.910 --------------------------------------------------------------------------
+. 2017-08-06 19:05:05.910 Using SFTP protocol.
+. 2017-08-06 19:05:05.910 Doing startup conversation with host.
+> 2017-08-06 19:05:05.910 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-08-06 19:05:06.189 Type: SSH_FXP_VERSION, Size: 5, Number: -1
+. 2017-08-06 19:05:06.190 SFTP version 3 negotiated.
+. 2017-08-06 19:05:06.190 We believe the server has signed timestamps bug
+. 2017-08-06 19:05:06.190 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-08-06 19:05:06.190 Getting current directory name.
+. 2017-08-06 19:05:06.190 Getting real path for '.'
+> 2017-08-06 19:05:06.190 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-08-06 19:05:06.461 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-08-06 19:05:06.462 Real path is '/'
+. 2017-08-06 19:05:06.462 Startup conversation with host finished.
+< 2017-08-06 19:05:06.462 Script: Active session: [1] 13624694_test@sftp012.successfactors.eu
+> 2017-08-06 19:05:06.845 Script: pwd
+< 2017-08-06 19:05:06.846 Script: /
+> 2017-08-06 19:05:09.857 Script: put  -nopermissions -preservetime -transfer="binary" -- "C:\Users\Sheikh\Desktop\test1.txt" "/incoming/EzabiPhotos/"
+. 2017-08-06 19:05:09.860 Copying 1 files/directories to remote directory "/incoming/EzabiPhotos/"
+. 2017-08-06 19:05:09.860   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2017-08-06 19:05:09.860   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-08-06 19:05:09.860   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-08-06 19:05:09.860 File: 'C:\Users\Sheikh\Desktop\test1.txt' [2017-08-06T16:47:55.159Z] [0]
+. 2017-08-06 19:05:09.861 Copying "C:\Users\Sheikh\Desktop\test1.txt" to remote directory started.
+. 2017-08-06 19:05:09.861 Binary transfer mode selected.
+. 2017-08-06 19:05:09.861 Opening remote file.
+> 2017-08-06 19:05:09.861 Type: SSH_FXP_OPEN, Size: 56, Number: 259
+< 2017-08-06 19:05:10.140 Type: SSH_FXP_HANDLE, Size: 10, Number: 259
+> 2017-08-06 19:05:10.140 Type: SSH_FXP_CLOSE, Size: 10, Number: 772
+> 2017-08-06 19:05:10.140 Type: SSH_FXP_SETSTAT, Size: 52, Number: 521
+< 2017-08-06 19:05:10.421 Type: SSH_FXP_STATUS, Size: 21, Number: 772
+< 2017-08-06 19:05:10.421 Status code: 0
+. 2017-08-06 19:05:10.421 Preserving timestamp [2017-08-06T16:47:55.000Z]
+< 2017-08-06 19:05:10.707 Type: SSH_FXP_STATUS, Size: 21, Number: 521
+< 2017-08-06 19:05:10.707 Status code: 0
+. 2017-08-06 19:05:10.707 Transfer done: 'C:\Users\Sheikh\Desktop\test1.txt' [0]
+> 2017-08-06 19:05:17.941 Script: exit
+. 2017-08-06 19:05:17.941 Script: Exit code: 0
+. 2017-08-06 19:05:17.941 Closing connection.
+. 2017-08-06 19:05:17.941 Sending special code: 12
+. 2017-08-06 19:05:17.941 Sent EOF message

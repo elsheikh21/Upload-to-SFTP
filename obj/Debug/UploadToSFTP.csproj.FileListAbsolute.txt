@@ -1,0 +1,46 @@
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.exe
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.pdb
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug\WinSCPnet.dll
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.Form1.resources
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.Properties.Resources.resources
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.csproj.GenerateResource.Cache
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.exe
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.pdb
+C:\Users\engy.hamdy\Desktop\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.exe.config
+F:\sftp\UploadToSFTP\bin\Debug\UploadToSFTP.exe.config
+F:\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.exe
+F:\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.pdb
+F:\sftp\UploadToSFTP\bin\Debug\UploadToSFTP.exe
+F:\sftp\UploadToSFTP\bin\Debug\UploadToSFTP.pdb
+F:\sftp\UploadToSFTP\bin\Debug\WinSCPnet.dll
+F:\sftp\UploadToSFTP\obj\Debug\ResolveAssemblyReference.cache
+F:\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.Form1.resources
+F:\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.Properties.Resources.resources
+F:\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.csproj.GenerateResource.Cache
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\UploadToSFTP.exe.config
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.exe
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\UploadToSFTP.exe
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\UploadToSFTP.pdb
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\WinSCPnet.dll
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.csprojResolveAssemblyReference.cache
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.Form1.resources
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.Properties.Resources.resources
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.csproj.GenerateResource.Cache
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\obj\Debug\UploadToSFTP.pdb
+C:\Users\Sheikh\Documents\Visual Studio 2013\Projects\sftp\UploadToSFTP\bin\Debug\app.config
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\Contents\Paomedia-Small-N-Flat-File-exe.ico
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\app.config
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.exe.config
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.exe.manifest
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.application
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.exe
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\UploadToSFTP.pdb
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\bin\Debug\WinSCPnet.dll
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.Properties.Resources.resources
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.csproj.GenerateResource.Cache
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.exe.manifest
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.application
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.exe
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.pdb
+C:\Users\ahmede\Documents\Visual Studio 2013\Projects\UploadToSFTP\UploadToSFTP\obj\Debug\UploadToSFTP.csprojResolveAssemblyReference.cache
