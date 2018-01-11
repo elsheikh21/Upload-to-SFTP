@@ -11,9 +11,6 @@ using System.ComponentModel;
 using UploadToSFTP.Properties;
 using System.Collections.Generic;
 
-// The WinSCP library methods returns nothing, So I had to hard code the error messages.
-// This was my very first time I squash bugs in industrial field 
-
 namespace UploadToSFTP {
     static class Program {
         [STAThread]
@@ -135,6 +132,7 @@ namespace UploadToSFTP {
             #region errors that will might occur
 
                 // Checking for the exceptions due to failure of uploading file/session opening 
+                // Here the errors are hardcoded as the WinSCP library has no return codes, all of the methods return nothing
             catch( UnauthorizedAccessException ex ) {
                 text = String.Format("Failed uploading the file from ({0}) to ({1}) at ({2}) due to ({3}). The error message is: ({4}).", sourcePath, sinkPath, DateTime.Now.ToString("dd-MM-yyyy, HH:mm:ss"), "Check user rights to edit/save files in this directory. ", ex.Message);
             } catch( DirectoryNotFoundException ex ) {
