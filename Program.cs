@@ -91,7 +91,7 @@ namespace UploadToSFTP {
                 // opening a new session
                 using( Session session = new Session() ) {
                     // Path to winscp.exe. The default is null, meaning that winscp.exe is looked for in the same directory as this assembly or in an installation folder.
-                    //session.ExecutablePath = @ExecutePath;
+                    session.ExecutablePath = @ExecutePath;
                     // Path to store assembly debug log to. Default null means, no debug log file is created.
                     session.DebugLogPath = @DebugLogPath;
                     // Path to store session log file to. Default null means, no session log file is created.
